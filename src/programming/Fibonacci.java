@@ -1,11 +1,15 @@
 package programming;
 
+import java.util.Comparator;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class Fibonacci {
     public static void main(String[] args) {
         {
 
+
+            TreeMap treeMap = new TreeMap();
             int first = 0;
             int second = 1;
             int next;
