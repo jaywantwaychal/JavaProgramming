@@ -16,9 +16,9 @@ public class MarsSOS {
             endIndex = endIndex+3;
         }
         list.forEach(System.out::println);
-        List<String> error = list.stream().filter(str -> !str.equalsIgnoreCase("SOS"))
-            .collect(Collectors.toList());
+//        List<String> error = list.stream().filter(str -> !str.equalsIgnoreCase("SOS")).forEach()
+//            .collect(Collectors.toList());
 
-        System.out.println(error.size());
+       // System.out.println(error.size());
     }
 }
